@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_small_components_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_block_left_rights",
+  "info": {
+    "displayName": "LeftRight",
+    "description": "",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext",
+      "required": false
+    },
+    "body": {
+      "type": "string",
+      "required": false
+    },
+    "phoneIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "phoneNumber": {
+      "type": "richtext"
+    },
+    "phonePhrase": {
+      "type": "text"
+    },
+    "button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "buttons.button"
+    },
+    "featureImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageFirst": {
+      "type": "boolean"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "sharp-round-corners",
+        "round-corners",
+        "large-rounded-left-corners"
+      ]
+    },
+    "callSection": {
+      "type": "boolean"
+    },
+    "repeatedSection": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_small_components_link_columns",
+  "info": {
+    "displayName": "LinkColumn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.link"
+    }
+  }
+}

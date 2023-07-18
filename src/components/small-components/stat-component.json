@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_small_components_stat_components",
+  "info": {
+    "displayName": "statComponent"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "divider": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

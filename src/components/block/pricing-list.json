@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_block_pricing_lists",
+  "info": {
+    "displayName": "PricingList",
+    "icon": "shoppingCart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "PricingCard": {
+      "displayName": "PricingCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.pricing-card"
+    }
+  }
+}

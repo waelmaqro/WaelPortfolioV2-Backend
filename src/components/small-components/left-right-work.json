@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_small_components_left_right_works",
+  "info": {
+    "displayName": "LeftRightWork",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "textHeading": {
+      "type": "string"
+    },
+    "textBody": {
+      "type": "string"
+    },
+    "imageFirst": {
+      "type": "boolean"
+    },
+    "featureImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

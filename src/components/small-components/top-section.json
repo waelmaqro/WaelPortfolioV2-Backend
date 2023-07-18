@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_small_components_top_sections",
+  "info": {
+    "displayName": "topSection",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phoneNum": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_small_components_icon_links",
+  "info": {
+    "displayName": "IconLink",
+    "icon": "twitter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    }
+  }
+}

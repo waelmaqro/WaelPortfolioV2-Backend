@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_block_sponsors",
+  "info": {
+    "displayName": "Sponsors",
+    "description": "",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "displayName": "images",
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_cards_feature_cards",
+  "info": {
+    "displayName": "featureCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    }
+  }
+}

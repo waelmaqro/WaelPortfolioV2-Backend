@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_flip_cards",
+  "info": {
+    "displayName": "FlipCards",
+    "description": "",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.flip-card"
+    }
+  }
+}

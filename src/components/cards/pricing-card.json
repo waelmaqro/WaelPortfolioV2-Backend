@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_cards_pricing_cards",
+  "info": {
+    "displayName": "PricingCard",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pricePlan": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    },
+    "isPopular": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "line": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_block_single_testimonials",
+  "info": {
+    "displayName": "SingleTestimonial",
+    "icon": "quote"
+  },
+  "options": {},
+  "attributes": {
+    "leftpattern": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "rightpattern": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "quotationMark": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

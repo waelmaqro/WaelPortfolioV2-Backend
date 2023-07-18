@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_cards_flip_cards",
+  "info": {
+    "displayName": "FlipCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "profileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.icon-link"
+    }
+  }
+}

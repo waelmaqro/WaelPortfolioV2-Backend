@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_block_company_stats",
+  "info": {
+    "displayName": "companyStats",
+    "icon": "chartPie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "statComponent": {
+      "displayName": "statComponent",
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.stat-component"
+    }
+  }
+}

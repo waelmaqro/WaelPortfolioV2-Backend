@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_testimonial_blocks",
+  "info": {
+    "displayName": "TestimonialBlock",
+    "description": "",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.testimonial-card"
+    }
+  }
+}

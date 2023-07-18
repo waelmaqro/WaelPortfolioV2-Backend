@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webinar_categories",
+  "info": {
+    "singularName": "webinar-category",
+    "pluralName": "webinar-categories",
+    "displayName": "webinarCategories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Category": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "webinars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::webinar.webinar",
+      "mappedBy": "webinar_category"
+    }
+  }
+}

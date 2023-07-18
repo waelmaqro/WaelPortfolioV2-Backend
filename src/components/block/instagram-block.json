@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_instagram_blocks",
+  "info": {
+    "displayName": "InstagramBlock"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.instagram-card"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_block_contactuses",
+  "info": {
+    "displayName": "ContactUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    },
+    "formType": {
+      "type": "enumeration",
+      "enum": [
+        "None",
+        "Short Form",
+        "Full Form",
+        "Blog Form"
+      ]
+    },
+    "hasSidebar": {
+      "type": "boolean"
+    },
+    "isMapVisible": {
+      "type": "boolean"
+    }
+  }
+}

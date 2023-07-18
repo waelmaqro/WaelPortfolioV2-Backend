@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_small_components_sub_navs",
+  "info": {
+    "displayName": "subNav"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_block_left_right_works",
+  "info": {
+    "displayName": "LeftRightWork",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "LeftRightWork": {
+      "displayName": "LeftRightWork",
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.left-right-work"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "bg-[#F4F0EC]"
+      ]
+    }
+  }
+}

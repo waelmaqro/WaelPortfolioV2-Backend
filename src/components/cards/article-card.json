@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_cards_article_cards",
+  "info": {
+    "displayName": "ArticleCard",
+    "icon": "",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "beige"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    }
+  }
+}

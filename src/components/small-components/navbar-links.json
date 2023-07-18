@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_small_components_navbar_links",
+  "info": {
+    "displayName": "NavbarLinks",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "DropdownLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.link"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_buttons_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "buttonLabel": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "gold"
+      ]
+    }
+  }
+}

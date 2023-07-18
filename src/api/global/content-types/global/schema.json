@@ -1,0 +1,104 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headerLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "headerTitle": {
+      "type": "string"
+    },
+    "searchIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.link"
+    },
+    "footerLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "footerTitle": {
+      "type": "string"
+    },
+    "footerSubtitle": {
+      "type": "text"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.icon-link"
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.link-column"
+    },
+    "contactTitle": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "copyrightText": {
+      "type": "text"
+    },
+    "mobile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mobile.mobile-navigation"
+    },
+    "subNav": {
+      "displayName": "subNav",
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.sub-nav"
+    },
+    "topSection": {
+      "displayName": "topSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "small-components.top-section"
+    },
+    "NavbarLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.navbar-links"
+    }
+  }
+}

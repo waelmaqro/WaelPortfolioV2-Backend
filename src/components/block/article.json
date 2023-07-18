@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_block_articles",
+  "info": {
+    "displayName": "Article",
+    "icon": "write",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "pagination": {
+      "type": "boolean"
+    }
+  }
+}

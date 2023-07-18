@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_mobile_mobile_navigations",
+  "info": {
+    "displayName": "MobileNavigation"
+  },
+  "options": {},
+  "attributes": {
+    "menuOpenIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "menuCloseIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "small-components.link"
+    }
+  }
+}
