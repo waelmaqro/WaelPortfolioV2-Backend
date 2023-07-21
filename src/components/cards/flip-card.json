@@ -14,6 +14,13 @@
     },
     "body": {
       "type": "text"
+    },
+    "profileImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
