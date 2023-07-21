@@ -43,8 +43,8 @@
         "block.left-right-work",
         "block.pricing-list",
         "block.single-testimonial",
-        "block.flip-cards",
-        "block.instagram-block"
+        "block.instagram-block",
+        "block.flip-cards"
       ]
     }
   }

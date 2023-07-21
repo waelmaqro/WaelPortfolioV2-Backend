@@ -12,27 +12,8 @@
     "subtitle": {
       "type": "string"
     },
-    "phoneNumber": {
-      "type": "string"
-    },
-    "email": {
-      "type": "email"
-    },
-    "profileImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "socials": {
-      "type": "component",
-      "repeatable": true,
-      "component": "small-components.icon-link"
+    "body": {
+      "type": "text"
     }
   }
 }
