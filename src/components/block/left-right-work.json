@@ -21,7 +21,9 @@
     "theme": {
       "type": "enumeration",
       "enum": [
-        "bg-[#F4F0EC]"
+        "bg-[#313B44]",
+        "bg-[#959DCA]",
+        "bg-[#847C88]"
       ]
     }
   }
